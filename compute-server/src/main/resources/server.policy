@@ -1,0 +1,3 @@
+grant codeBase "file:/usr/local/src/java-rmi/compute-server/target/compute-server-1.0-SNAPSHOT.jar" {
+  permission java.security.AllPermission;
+};

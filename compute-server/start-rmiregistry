@@ -1,0 +1,12 @@
+#!/bin/bash
+
+clear
+unset CLASSPATH
+echo "Running rmiregistry..."
+
+rmiregistry -J-Djava.rmi.server.logCalls=true \
+    -J-Djava.sun.rmi.loader.logLevel=VERBOSE \
+    -J-Djava.sun.rmi.server.exceptionTrace=true \
+    -J-Djava.sun.rmi.server.logLevel=VERBOSE \
+    -J-Djava.sun.rmi.server.activation.debugExec=true \
+    -J-Djava.rmi.server.useCodebaseOnly=false

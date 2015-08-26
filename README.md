@@ -1,1 +1,21 @@
-# java-rmi
+# java-rmi 
+
+To run example from http://docs.oracle.com/javase/tutorial/rmi/TOC.html:
+
+1. Build parent project
+
+2. Copy compute-api-1.0-SNAPSHOT.jar to accessible webserver, like
+   http://localhost/compute/api/compute-api-1.0-SNAPSHOT.jar
+
+3. Copy compute-client-1.0-SNAPSHOT.jar to accessible webserver, like
+   http://localhost/compute/client/compute-client-1.0-SNAPSHOT.jar
+
+4. With a terminal in compute-server, run
+   start-rmiregistry
+
+5. With another terminal in compute-server, run
+   start-server
+
+6. With yet another terminal in compute-client, run
+   start-client
+
