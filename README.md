@@ -6,9 +6,11 @@ To run example from http://docs.oracle.com/javase/tutorial/rmi/TOC.html:
 
 2. Copy compute-api-1.0-SNAPSHOT.jar to accessible webserver, like
    http://localhost/compute/api/compute-api-1.0-SNAPSHOT.jar
+   (adjust start-server if necessary) 
 
 3. Copy compute-client-1.0-SNAPSHOT.jar to accessible webserver, like
    http://localhost/compute/client/compute-client-1.0-SNAPSHOT.jar
+   (adjust start-client if necessary)
 
 4. With a terminal in compute-server, run
    start-rmiregistry
@@ -18,4 +20,8 @@ To run example from http://docs.oracle.com/javase/tutorial/rmi/TOC.html:
 
 6. With yet another terminal in compute-client, run
    start-client
+   
+TODO:
+Run rmiregistry, compute-server and compute-client on differents hosts/
+JVMs using Docker.
 
