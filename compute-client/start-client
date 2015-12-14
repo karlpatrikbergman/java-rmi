@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 java -jar \
     -Djava.rmi.server.codebase=http://localhost:6060/compute-client/compute-client-1.0-SNAPSHOT.jar \
     -Djava.security.policy=src/main/resources/client.policy \
