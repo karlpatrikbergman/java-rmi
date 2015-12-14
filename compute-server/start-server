@@ -6,7 +6,7 @@
 
 clear
 java -jar \
-    -Djava.rmi.server.codebase=http://localhost/compute/api/compute-api-1.0-SNAPSHOT.jar \
+    -Djava.rmi.server.codebase=http://localhost:6060/compute-api/compute-api-1.0-SNAPSHOT.jar \
     -Djava.rmi.server.hostname=localhost \
     -Djava.security.policy=src/main/resources/server.policy \
     -Djava.rmi.server.useCodebaseOnly=false \
