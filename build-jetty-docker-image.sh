@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+clear
 docker stop rmi-jetty
 docker rm rmi-jetty
 docker images -q --filter "dangling=true" | xargs -n1 -r docker rmi

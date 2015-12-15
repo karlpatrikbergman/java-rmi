@@ -2,7 +2,7 @@
 # To check if rmiregistry is running enter:
 # ps -auxww | grep rmiregistry | egrep -v grep
 # It's probably not necessary to set useCodeBaseOnly both for
-# rmiregistry and server application?
+# rmiregistry and server application (??
 
 clear
 java -jar \

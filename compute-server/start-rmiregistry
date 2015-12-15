@@ -2,6 +2,7 @@
 
 clear
 unset CLASSPATH
+clear
 echo "Running rmiregistry..."
 
 rmiregistry -J-Djava.rmi.server.logCalls=true \
